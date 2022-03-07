@@ -17,6 +17,12 @@ code {
     monospace;
 }
 
+button,
+button:focus,
+input {
+  box-shadow: none !important;
+}
+
 /* Modal */
 .modal-backdrop {
   z-index: 0 !important;
