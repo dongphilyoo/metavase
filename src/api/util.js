@@ -35,8 +35,8 @@ export const getProductsData = async () => {
         },
         headers: {
           'x-rapidapi-host': 'target1.p.rapidapi.com',
-          'x-rapidapi-key':
-            'e789fb8a4dmshb7828cd9984cab9p12ec5cjsn0d78732c45bc',
+          'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY,
+          // 'e789fb8a4dmshb7828cd9984cab9p12ec5cjsn0d78732c45bc',
         },
       }
     )
