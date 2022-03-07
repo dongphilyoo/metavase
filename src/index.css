@@ -5,9 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(90deg, #ffffff 21px, transparent 1%) center,
+    linear-gradient(#ffffff 21px, transparent 1%) center, #a799cc;
+  background-size: 22px 22px;
+  overscroll-behavior: none;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Modal */
+.modal-backdrop {
+  z-index: 0 !important;
 }
