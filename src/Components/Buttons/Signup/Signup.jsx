@@ -9,7 +9,7 @@ const Signup = () => {
         data-bs-toggle="modal"
         data-bs-target="#signupModal"
       >
-        <span className="fa fa-user-plus me-1"></span>
+        <span className="fa fa-user-plus me-1" />
         Register
       </button>
 
@@ -31,15 +31,14 @@ const Signup = () => {
                 className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
-              ></button>
+              />
             </div>
             <div className="modal-body">
               <button className="btn btn-primary w-100 mb-4">
-                <span className="fa fa-google me-2"></span>Sign up with Google
+                <span className="fa fa-google me-2" />Sign up with Google
               </button>
               <button className="btn btn-primary w-100 mb-4">
-                <span className="fa fa-facebook me-2"></span>Sign up with
-                Facebook
+                <span className="fa fa-facebook me-2" />Sign up with Facebook
               </button>
               <form>
                 <div className="mb-3">
@@ -87,7 +86,7 @@ const Signup = () => {
                   </label>
                 </div>
                 <button
-                  type="submit"
+                  type="button"
                   className="btn btn-outline-primary w-100 mt-5"
                 >
                   Register

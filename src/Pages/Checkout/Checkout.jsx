@@ -44,7 +44,7 @@ const Checkout = () => {
                   className="form-control"
                   placeholder="Promo code"
                 />
-                <button type="submit" className="btn btn-secondary">
+                <button type="button" className="btn btn-secondary">
                   Redeem
                 </button>
               </div>
@@ -328,7 +328,7 @@ const Checkout = () => {
 
               <hr className="my-4" />
 
-              <button className="w-100 btn btn-primary btn-lg" type="submit">
+              <button className="w-100 btn btn-primary btn-lg" type="button">
                 Continue to checkout
               </button>
             </form>

@@ -9,7 +9,7 @@ const Login = () => {
         data-bs-toggle="modal"
         data-bs-target="#loginModal"
       >
-        <span className="fa fa-sign-in me-1"></span>
+        <span className="fa fa-sign-in me-1" />
         Login
       </button>
 
@@ -31,15 +31,14 @@ const Login = () => {
                 className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
-              ></button>
+              />
             </div>
             <div className="modal-body">
               <button className="btn btn-primary w-100 mb-4">
-                <span className="fa fa-google me-2"></span>Sign in with Google
+                <span className="fa fa-google me-2" />Sign in with Google
               </button>
               <button className="btn btn-primary w-100 mb-4">
-                <span className="fa fa-facebook me-2"></span>Sign in with
-                Facebook
+                <span className="fa fa-facebook me-2" />Sign in with Facebook
               </button>
               <form>
                 <div className="mb-3">
@@ -77,7 +76,7 @@ const Login = () => {
                   </label>
                 </div>
                 <button
-                  type="submit"
+                  type="button"
                   className="btn btn-outline-primary w-100 mt-5"
                 >
                   Submit

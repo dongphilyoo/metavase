@@ -52,7 +52,7 @@ const Contact = () => {
                   rows="5"
                 />
               </div>
-              <button type="submit" className="btn btn-outline-primary mb-5">
+              <button type="button" className="btn btn-outline-primary mb-5">
                 Send Message
               </button>
             </form>
