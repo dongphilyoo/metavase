@@ -30,7 +30,7 @@ const Home = () => {
             </p>
             <div className="col-sm-12 mt-4">
               <div className="content">
-                <p className="">Subscribe to our newsletter</p>
+                <p className="text-muted">Subscribe to our newsletter</p>
                 <div className="input-group">
                   <input
                     type="email"

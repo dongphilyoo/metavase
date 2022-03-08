@@ -37,7 +37,11 @@ const ProductDetail = () => {
     <>
       <div
         className="container rounded shadow-sm py-5"
-        style={{ marginTop: '10rem', backgroundColor: 'white' }}
+        style={{
+          marginTop: '10rem',
+          marginBottom: '4rem',
+          backgroundColor: 'white',
+        }}
       >
         <div className="row">
           <div className="col-lg-6 d-flex justify-content-center mx-auto product">
@@ -53,6 +57,9 @@ const ProductDetail = () => {
             <hr />
             <h2 className="my-4">{'$' + productDetail.price}</h2>
             <p className="lead">{productDetail.description}</p>
+            <p className="text-muted">
+              ⭐ {productDetail.rating} out of {productDetail.review} reviews
+            </p>
             <button
               className="btn btn-outline-primary mt-4"
               onClick={() => handleCart(productDetail)}

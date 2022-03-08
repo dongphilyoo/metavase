@@ -57,7 +57,7 @@ const Product = () => {
   }
 
   return (
-    <div className="wrapper">
+    <div className="wrapper mb-5">
       <div className="container py-5">
         <div className="row">
           <div className="col-12 text-center">
