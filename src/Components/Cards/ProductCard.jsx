@@ -16,6 +16,7 @@ const ProductCard = (props) => {
         <p className="lead">{'$' + props.product.price.current_retail}</p>
         <NavLink
           to={`/products/${props.product.item.dpci}`}
+          state={props.product}
           className="btn btn-outline-primary"
         >
           Buy Now

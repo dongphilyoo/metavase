@@ -19,6 +19,7 @@ const Product = () => {
         const data = response?.data?.data?.search?.products
         setProductsData(data)
         setLoading(false)
+        console.log(data)
       }
     })
     return () => {
